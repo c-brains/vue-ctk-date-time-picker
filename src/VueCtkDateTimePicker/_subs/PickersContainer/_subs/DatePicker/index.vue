@@ -158,6 +158,9 @@
   import WeekDays from './_subs/WeekDays'
   import CustomButton from '@/VueCtkDateTimePicker/_subs/CustomButton'
   import KeyboardAccessibility from '@/VueCtkDateTimePicker/mixins/keyboard-accessibility'
+  import { setJaMonth } from '../../../../utils';
+
+  setJaMonth(moment)
 
   export default {
     name: 'DatePicker',

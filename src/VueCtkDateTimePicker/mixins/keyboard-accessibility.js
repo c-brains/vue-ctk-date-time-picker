@@ -1,4 +1,6 @@
 import moment from 'moment'
+import { setJaMonth } from '../utils';
+setJaMonth(moment);
 /*
   * Vue mixin to inject the required methods, events to handle the date navigation
   * with the keyboard.

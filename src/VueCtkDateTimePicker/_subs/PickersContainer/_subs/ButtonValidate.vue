@@ -52,6 +52,8 @@
 
 <script>
   import moment from 'moment'
+  import { setJaMonth } from '../../../utils';
+  setJaMonth(moment);
 
   export default {
     name: 'ButtonValidate',
